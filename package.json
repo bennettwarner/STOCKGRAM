@@ -1,0 +1,21 @@
+{
+  "name": "deepstocksbot",
+  "version": "1.0.0",
+  "description": "Telegram Ticker Bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bennett Warner",
+  "license": "MIT",
+  "dependencies": {
+    "alphavantage": "^1.2.4",
+    "dotenv": "^7.0.0",
+    "node-telegram-bot-api": "^0.30.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
