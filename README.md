@@ -4,6 +4,8 @@
 
 Telegram Bot written in Node.JS to provide near-realtime stock quotes when requested. A bot token is **required** and can be obtained by talking to [@botfather](https://telegram.me/BotFather).
 
+You can try out this bot by messaging [@DEEPSTOCKS_bot](https://telegram.me/DEEPSTOCKS_bot)
+
 ### Prerequisites
 
 * NodeJS
