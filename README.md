@@ -1,4 +1,4 @@
-# Deep Stocks
+# DEEPSTOCKS Telegram Bot
 
 ![Screenshot](https://github.com/bennettwarner/DEEPSTOCKS/raw/master/screenshot.png)
 
