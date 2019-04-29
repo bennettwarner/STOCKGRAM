@@ -18,7 +18,6 @@ Run: git clone https://github.com/bennettwarner/DEEPSTOCKS.git
 Run: npm i
 Edit example.env and add your Telegram and AlphaVantage API keys. Save file as .env
 Start via: node app.js
-
 ```
 ## Built With
 
