@@ -14,12 +14,10 @@ You can try out this bot by messaging [@DEEPSTOCKS_bot](https://telegram.me/DEEP
 ### Installing
 
 ```
-Run:
-  git clone https://github.com/bennettwarner/DEEPSTOCKS.git
-
-  npm i
-
+Run: git clone https://github.com/bennettwarner/DEEPSTOCKS.git
+Run: npm i
 Edit example.env and add your Telegram and AlphaVantage API keys. Save file as .env
+Start via: node app.js
 
 ```
 ## Built With
