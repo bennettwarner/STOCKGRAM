@@ -29,8 +29,8 @@ Edit example.env and add your Telegram and AlphaVantage API keys. Save file as .
 
 ## Authors
 
-* **Bennett Warner** - *Initial work* - [Bennett Warner](https://github.com/bennettwarner)
+- *Initial work* - [Bennett Warner](https://github.com/bennettwarner)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
