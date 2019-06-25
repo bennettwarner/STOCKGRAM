@@ -21,10 +21,24 @@ function getQuote(ticker){
     console.log('num', num);
 }
 
+// Get bitcoin quote and return to user
+function getBTC(){
+    alpha.forex.rate('btc', 'usd').then(data => {
+        bot.sendMessage(chatId, '$'+data['Realtime Currency Exchange Rate']['5. Exchange Rate']);
+    }).catch((err) => console.log('Error: '));
+    console.log('num', num);
+}
+
 // Parse user input
 bot.onText(/\$(.+)/, (msg, match) => { 
   chatId = msg.chat.id;
-  console.log(Object.entries(msg)[4][1])
-  const resp = '$'+getQuote(Object.entries(msg)[4][1].slice(1)); 
+  request = Object.entries(msg)[4][1]
+  console.log(request)
+  if(request == '$btc' || request ==  '$BTC'){
+	const resp = '$'+getBTC();
+    }
+    else{
+        const resp = '$'+getQuote(request.slice(1)); 
+    }
 });
 
