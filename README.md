@@ -1,10 +1,8 @@
-# DEEPSTOCKS Telegram Bot
+# STONKSBOT Telegram Bot
 
-![Screenshot](https://github.com/bennettwarner/DEEPSTOCKS/raw/master/screenshot.png)
+![Screenshot](https://github.com/bennettwarner/STOCKGRAM/raw/master/screenshot.png)
 
 Telegram Bot written in Node.JS to provide near-realtime stock quotes when requested. A bot token is **required** and can be obtained by talking to [@botfather](https://telegram.me/BotFather).
-
-You can try out this bot by messaging [@DEEPSTOCKS_bot](https://telegram.me/DEEPSTOCKS_bot)
 
 ### Prerequisites
 
